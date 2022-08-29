@@ -10,7 +10,7 @@ class ShiftParameterMixup(AbstractDetector):
 
     ARGUMENT = "incorrect-shift"
     HELP = "The order of parameters in a shift instruction is incorrect."
-    IMPACT = DetectorClassification.HIGH
+    IMPACT = DetectorClassification.MEDIUM
     CONFIDENCE = DetectorClassification.HIGH
 
     WIKI = "https://github.com/crytic/slither/wiki/Detector-Documentation#shift-parameter-mixup"
