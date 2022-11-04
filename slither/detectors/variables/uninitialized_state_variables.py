@@ -21,7 +21,7 @@ class UninitializedStateVarsDetection(AbstractDetector):
 
     ARGUMENT = "uninitialized-state"
     HELP = "Uninitialized state variables"
-    IMPACT = DetectorClassification.HIGH
+    IMPACT = DetectorClassification.MEDIUM
     CONFIDENCE = DetectorClassification.HIGH
 
     WIKI = "https://github.com/crytic/slither/wiki/Detector-Documentation#uninitialized-state-variables"
